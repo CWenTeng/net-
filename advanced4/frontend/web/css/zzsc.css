@@ -1,0 +1,16 @@
+ ul, caption { padding: 0;}
+body { font-size: 12px; font-family:verdana, Arial, Helvetica, sans-serif, 宋体;}
+.slideBox{height:201px;}
+.slideBox .hd{ height:15px; position:absolute;}
+.slideBox .hd ul li{ float:left; border:1px solid #b7daff; display:block; width:111px;}
+.slideBox .hd ul li a{display:block;line-height:30px; position:relative; color:#666; font-family:"微软雅黑"; }
+.slideBox .hd ul li a img{ display:none; position:absolute; top:-7px;width: 111px}
+.slideBox .hd ul li.on a img{ display:block;}
+.slideBox .bd ul li{ position:relative;}
+.slideBox .bd img{ width:555px; height:185px; }
+.burder_content{ position:absolute; top:0; right:0px;width:315px; padding-left:20px; padding-right:13px; padding-top:20px;}
+.burder_content{ position:absolute; top:0; right:0px;padding-left:20px; padding-right:13px; padding-top:20px;}
+.burder_content .burder_content_type{ float:left; font-size:14px; line-height:23px; text-align:center; height:23px; width:105px; font-weight:bold; color:#fff; background-color:#ff7800;}
+.burder_content .burder_content_title{ float:left;color:#4c4d4d;margin-top:10px;font-family:"微软雅黑";}
+.burder_content .burder_content_content{ float:left;color:#4c4d4d;margin-top:10px;}
+.burder_content .burder_content_lookall{ float:left;}
